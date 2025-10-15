@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body style="background-image: url(/asset/home\ back.jpg);">
+  <header>
+    
+    <nav>
+        <div style="background-color: rgb(235, 66, 66) ;">
+            <a href="home.html" style="font-size: x-large;">Home</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="about.html" style="font-size: x-large;">About</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="achievement.html" style="font-size: x-large;">Achievement</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="contact.html"style="font-size: x-large;" >Contact</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            
+        </div>
+    </nav>
+  </header>
+  <h1>Contact Me</h1>
+
+  <main>
+    <h2>Get in Touch</h2>
+    <form action="mailto:example@email.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+      <input type="submit" value="Send">
+      <input type="reset" value="Clear">
+    </form>
+
+    <h3>My Location</h3>
+    <iframe 
+      src="https://www.google.com/maps?q=Chennai,India&output=embed" 
+      width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Thiru's Portfolio. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
