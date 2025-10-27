@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+.top-bar {
+    background: #ee4074;
+    color: #fff;
+    text-align: center;
+    padding: 6px ;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ee4074;
+}
+
+nav a {
+    margin:  14px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+
+.hero {
+    background: url(/asset/rent.jpg) no-repeat right center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  80px;
+    height: 70vh;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.hero-buttons button {
+    margin-right: 14px;
+    padding: 28px;
+    background: #ee4074;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.booking-form {
+    background: #fff;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(60, 60, 60, 0.14);
+    min-width: 280px;
+}
+
+.booking-form h2 {
+    margin-bottom: 16px;
+    color: #222;
+    font-size: 22px;
+}
+
+.booking-form input, .booking-form select {
+    width: 100%;
+    margin-bottom: 14px;
+    padding: 8px 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.booking-form button {
+    width: 100%;
+    background: #ee4074;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    .header, .hero {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .hero {
+        padding: 30px 10px;
+    }
+}
